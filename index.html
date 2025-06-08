@@ -1,20 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello world</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>WikiHammer</h1>
-    <p> Wekcome to your intr</p>
-    <h2>butts</h2>
-    <h3>AH BAH</h3>
-    <h4>DOGE</h4>
-    <h5>BLICKY</h5>
-    <h6>OKSK</h6>
-    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-</body>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/favicon.png" type="image/png" size="32x32">
+    <title>WikiHammer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="/">
+            <li>Home</li>
+          </a>
+          <!-- TODO: Create a new branch and then the html page for Warhammer 4000. Add info, pics etc. Delete this comment once done -->
+          <!-- HINT: Line by line, copy all the code on this page and change the info and images. Obvs don't include the comments. Don't copy and paste otherwise you won't learn anything! Reference your images in the README.md file and read over the CSS in style.css when you come across it here -->
+          <a href="bars.html">
+            <li>Warhammer 40000</li>
+          </a>
+          <!-- TODO: Create a new branch and then the html page for Horus Heresy. Add info, pics etc. Delete this comment once done -->
+          <a href="cafes.html">
+            <li>The Horus Heresy</li>
+          </a>
+          <!-- TODO: Create a new branch and then the html page for Age of Sigmar. Add info, pics etc. Delete this comment once done -->
+          <a href="events.html">
+            <li>Age of Sigmar</li>
+          </a>
+          <!-- TODO: Create a new branch and then the html page for Table Top. Add info, pics etc. Delete this comment once done -->
+          <a href="budget.html">
+            <li>Tabletop</li>
+          </a>
+          <!-- TODO: Create a new branch and then the html page for About Me. Add info, pics etc. Delete this comment once done -->
+          <a href="about.html">
+            <li>About Me</li>
+          </a>
+        </ul>
+      </div>
+      <header>
+        <h4>WikiHammer</h4>
+      </header>
+    </nav>
+
+    <!-- TODO: ignore this code for now -->
+    <!--<div id="loading-overlay">
+      <canvas id="loading"></canvas>
+    </div>-->
+
+
+
+    <section>
+      <!-- TODO: Add an alt tag to this image. These are for accessibility. Delete this comment once done -->
+      <img class="hero" src="images/warhammer_1.jpeg" alt="">
+    </section>
+
+  <p>Welcome to WikiHammer, a collaborative platform for sharing knowledge about the Warhammer universe. Here you can find articles, guides, and discussions about various aspects of Warhammer, including lore, gameplay, and painting techniques.</p>
+  <p>Join our community and contribute your knowledge!</p>
+
+
+    <div class="flex-container">
+      <div class="flex-item">
+        <!-- TODO: Create a new branch and then add all the newly created html pages. Add a title, a pic, alt text, and a link to the HTML page. Delete this comment once done -->
+        <a href="bars.html"><img class="flex" src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
+      </div>
+      <div class="flex-item">
+        <a href="cafes.html"><img class="flex" src="images/homepage/cafes.jpg" alt="cups of coffee"></a>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="flex-item">
+        <a href="transport.html"><img class="flex" src="images/homepage/transport.jpg" alt="ferry on the water"></a>
+      </div>
+      <div class="flex-item">
+        <a href="shopping.html"><img class="flex" src="images/homepage/shopping.jpg" alt="row of shops"></a>
+      </div>
+    </div>
+
+    <br>
+    <!-- TODO: Change the footer to be some kind of copyright and change the colours if you wish. Delete this comment once done -->
+    <footer class="footer">Brisbane, Queensland, Australia</footer>
+
+  </body>
+  <!-- TODO: ignore this JS for now -->
+  <script type="text/javascript" src="script.js"></script>
 </html>
